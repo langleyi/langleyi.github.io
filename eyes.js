@@ -3,6 +3,14 @@ var context;
 var mx = 0;
 var my = 0;
 
+var background = new Image();
+background.src = "site_background.png";
+
+// Make sure the image is loaded first otherwise nothing will draw.
+background.onload = function(){
+    ctx.drawImage(background,0,0);   
+}
+
 var eyes = [
    { 
     'centerX' : 0.873 * window.innerWidth,
