@@ -10,8 +10,8 @@ background.src = "site_background_jpg.jpg";
 
 var eyes = [
    { 
-    'centerX' : 0.873 * window.innerWidth * window.innerWidth,
-    'centerY' : 0.679 * window.innerHeight  * window.innerHeight,
+    'centerX' : 0.2 * window.innerWidth * window.innerWidth,
+    'centerY' : 0.3 * window.innerHeight  * window.innerHeight,
     'radius' : 8
   },
 ]
