@@ -18,6 +18,11 @@ var eyes = [
     'centerY' : window.innerHeight - 137,
     'radius' : 4
   },
+         { 
+    'centerX' : window.innerWidth - 133,
+    'centerY' : window.innerHeight - 144,
+    'radius' : 4
+  },
 ]
 
 window.onload = function() {
