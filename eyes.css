@@ -1,7 +1,9 @@
 
 
 canvas {
-
+	width: innerWidth;
+	height: innerHeight;
+	margin: 0px;
 	position: absolute;
 	top: 0;
 	left: 0;
