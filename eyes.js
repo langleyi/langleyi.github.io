@@ -25,6 +25,11 @@ window.onload = function() {
   tekenFrame();
 }
 
+// Make sure the image is loaded first otherwise nothing will draw.
+background.onload = function(){
+    context.drawImage(background,0,0);   
+}
+
 function tekenFrame() {
   context.clearRect(0, 0, canvas.width, canvas.height);
   for (var i = 0; i < eyes.length; i++) {
@@ -67,10 +72,7 @@ function drawEye(eye) {
   context.restore();
 }
 
-// Make sure the image is loaded first otherwise nothing will draw.
-background.onload = function(){
-    context.drawImage(background,0,0);   
-}
+
 
 function bepaalCoordinaten(eye) {
   // afstand van middenpunt oog tot cursor
