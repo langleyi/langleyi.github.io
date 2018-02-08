@@ -41,7 +41,7 @@ function drawEye(eye) {
   // eye
   context.beginPath();
   context.arc(eye.centerX, eye.centerY, eye.radius, 0, Math.PI * 2);
-  context.fillStyle = "#fff";
+  context.fillStyle = "rgb(255, 255, 255, 0.1)";
   context.fill();
   context.closePath();
 
