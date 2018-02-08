@@ -19,7 +19,7 @@ var eyes = [
     'radius' : 4
   },
          { 
-    'centerX' : window.innerWidth - 128,
+    'centerX' : window.innerWidth - 120,
     'centerY' : window.innerHeight - 144,
     'radius' : 4
   },
