@@ -9,31 +9,6 @@ var eyes = [
     'centerY' : 67,
     'radius' : 65
   },
-  {
-    'centerX' : 250,
-    'centerY' : 60,
-    'radius' : 45
-  },
-  {
-    'centerX' : 400,
-    'centerY' : 360,
-    'radius' : 34
-  },
-  {
-    'centerX' : 850,
-    'centerY' : 460,
-    'radius' : 150
-  },
-  {
-    'centerX' : 50,
-    'centerY' : 160,
-    'radius' : 25
-  },
-  {
-    'centerX' : 500,
-    'centerY' : 320,
-    'radius' : 40
-  }
 ]
 
 window.onload = function() {
