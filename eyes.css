@@ -11,8 +11,8 @@ canvas {
 	background-image: url("site_background.png");
     	background-repeat: no-repeat;
     	background-attachment: fixed;
-    	background-size: 17% 33%;
-    	background-position: 100% 100%;
+    	background-size: auto;
+    	background-position: 50% 50%;
 
 }
 
