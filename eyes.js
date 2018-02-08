@@ -25,6 +25,14 @@ window.onload = function() {
   tekenFrame();
 }
 
+function canvas_resize() {
+  c = document.getElementById("myCanvas");
+  ctx = c.getContext("2d");
+  ctx.canvas.width  = window.innerWidth;
+  ctx.canvas.height = window.innerHeight;
+
+}
+
 // Make sure the image is loaded first otherwise nothing will draw.
 background.onload = function(){
     context.drawImage(background,0,0);   
