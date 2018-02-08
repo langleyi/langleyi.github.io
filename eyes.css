@@ -14,7 +14,7 @@ canvas {
 	top: 0;
 	left: 0;
 	background-color: #F5F5F5;
-	background-image: url('https://i.imgur.com/36OiAJm.jpg');
+	background-image: url("site_background.png");
     	background-repeat: no-repeat;
     	background-attachment: fixed;
     	background-size: 50%;
