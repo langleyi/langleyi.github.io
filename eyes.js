@@ -5,8 +5,8 @@ var my = 0;
 
 var eyes = [
    { 
-    'centerX' : 0.86 * window.innerWidth,
-    'centerY' : 0.75 * window.innerHeight,
+    'centerX' : 0.873 * window.innerWidth,
+    'centerY' : 0.683 * window.innerHeight,
     'radius' : 5
   },
 ]
