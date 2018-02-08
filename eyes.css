@@ -14,11 +14,11 @@ canvas {
 	top: 0;
 	left: 0;
 	background-color: #F5F5F5;
-	background-image: url('http://i.imgur.com/MwOcVNi.png');
+	background-image: url('https://i.imgur.com/36OiAJm.jpg');
     	background-repeat: no-repeat;
     	background-attachment: fixed;
     	background-size: 50%;
-    	background-position: 0% 100%;
+    	background-position: 1000% 0%;
 }
 
 
