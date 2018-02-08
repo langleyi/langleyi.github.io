@@ -14,8 +14,8 @@ var eyes = [
     'radius' : 7
   },
       { 
-    'centerX' : window.innerWidth - 142,
-    'centerY' : window.innerHeight - 138,
+    'centerX' : window.innerWidth - 143,
+    'centerY' : window.innerHeight - 137,
     'radius' : 4
   },
 ]
