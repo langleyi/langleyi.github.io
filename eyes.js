@@ -26,7 +26,7 @@ window.onload = function() {
 }
 
 function canvas_resize() {
-  c = document.getElementById('eyes);
+  c = document.getElementById('eyes');
   ctx = c.getContext("2d");
   ctx.canvas.width  = window.innerWidth;
   ctx.canvas.height = window.innerHeight;
