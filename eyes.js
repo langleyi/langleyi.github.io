@@ -6,10 +6,7 @@ var my = 0;
 var background = new Image();
 background.src = "site_background_jpg.jpg";
 
-// Make sure the image is loaded first otherwise nothing will draw.
-background.onload = function(){
-    ctx.drawImage(background,0,0);   
-}
+
 
 var eyes = [
    { 
@@ -68,6 +65,11 @@ function drawEye(eye) {
   context.closePath();
 
   context.restore();
+}
+
+// Make sure the image is loaded first otherwise nothing will draw.
+background.onload = function(){
+    context.drawImage(background,0,0);   
 }
 
 function bepaalCoordinaten(eye) {
