@@ -6,12 +6,18 @@ var my = 0;
 var background = new Image();
 background.src = "site_background_jpg.jpg";
 
+function canvas_resize() {
+  c = document.getElementById('eyes');
+  ctx = c.getContext("2d");
+  ctx.canvas.width  = window.innerWidth;
+  ctx.canvas.height = window.innerHeight;
 
+}
 
 var eyes = [
    { 
-    'centerX' : 0.8 * window.innerWidth,
-    'centerY' : 0.7 * window.innerHeight,
+    'centerX' : 0.8 * ctx.canvas.width,
+    'centerY' : 0.7 * ctx.canvas.height,
     'radius' : 8
   },
 ]
@@ -25,13 +31,7 @@ window.onload = function() {
   tekenFrame();
 }
 
-function canvas_resize() {
-  c = document.getElementById('eyes');
-  ctx = c.getContext("2d");
-  ctx.canvas.width  = window.innerWidth;
-  ctx.canvas.height = window.innerHeight;
 
-}
 
 // Make sure the image is loaded first otherwise nothing will draw.
 background.onload = function(){
