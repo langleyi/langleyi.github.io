@@ -8,6 +8,11 @@ canvas {
 	top: 0;
 	left: 0;
 	background-color: #F5F5F5;
+	background-image: url("site_background.png");
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-size: 20%;
+    	background-position: 100% 100%;
 
 }
 
