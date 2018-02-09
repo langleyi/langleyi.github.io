@@ -9,20 +9,11 @@ background.src = "site_background_jpg.jpg";
 
 var eyes = [
    { 
-    'centerX' : window.innerWidth - 138,
-    'centerY' : window.innerHeight - 155,
+    'centerX' : 0.5 * window.innerWidth - 50,
+    'centerY' : window.innerHeight - 500,
     'radius' : 7
   },
-      { 
-    'centerX' : window.innerWidth - 143,
-    'centerY' : window.innerHeight - 137,
-    'radius' : 4
-  },
-         { 
-    'centerX' : window.innerWidth - 120,
-    'centerY' : window.innerHeight - 144,
-    'radius' : 4
-  },
+
 ]
 
 window.onload = function() {
